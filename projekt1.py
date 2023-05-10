@@ -59,7 +59,7 @@ if username_input in users:
                 elif slovo.islower():
                     counter_lowercase +=1                    
                 elif slovo.istitle() and slovo.isalpha():
-                    print (slovo)
+#                    print (slovo)
                     counter_titlecase +=1
                 elif slovo.isnumeric():
                     counter_numeric +=1
